@@ -78,8 +78,4 @@ aws s3 ls "s3://$BUCKET_NAME/" --recursive | awk '{print $4}' | while read -r FI
     fi
 done
 
-# Change ownership of the log file
-chown wazuh:root "$LOG_FILE"
-chown wazuh:root "$FORMATTED_LOG_FILE"
-
 echo "Download and processing complete."
