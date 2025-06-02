@@ -3,7 +3,7 @@
 # ------------------------------------------------------------------------------
 # Script: Cognito Activity Log Downloader & Formatter
 # Description: Downloads logs from an AWS S3 bucket, deduplicates, processes, 
-#              and formats them for further analysis (e.g., by Wazuh).
+#              and formats them for further analysis.
 #
 # Author: Raj Vira (https://in.linkedin.com/in/rajvira)
 # Hosted by: Infopercept Consulting
